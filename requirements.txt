@@ -1,0 +1,26 @@
+# ============================================================
+# Requirements – CBR Putusan Pengadilan
+# Mata Kuliah Penalaran Komputer | UMM 2025/2026
+# ============================================================
+
+# PDF Processing
+pdfplumber>=0.10.0
+pdfminer.six>=20221105
+
+# NLP & Tokenisasi
+nltk>=3.8.1
+
+# Machine Learning & Vektor
+scikit-learn>=1.3.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Data Manipulation
+pandas>=2.0.0
+
+# Visualisasi
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
