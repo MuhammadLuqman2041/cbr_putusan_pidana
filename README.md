@@ -8,7 +8,7 @@
 
 ## Deskripsi Proyek
 
-Proyek ini mengimplementasikan sistem **Case-Based Reasoning (CBR)** berbasis Python untuk mendukung analisis putusan pengadilan pidana. Dataset yang digunakan berasal dari **Direktori Putusan Mahkamah Agung Republik Indonesia**, dengan domain perkara **Pidana Biasa (Pid.B)** dari Pengadilan Negeri Malang.
+Proyek ini mengimplementasikan sistem **Case-Based Reasoning (CBR)** berbasis Python untuk mendukung analisis putusan pengadilan pidana. Dataset yang digunakan berasal dari **Direktori Putusan Mahkamah Agung Republik Indonesia**, dengan domain perkara **Pidana Umum – Pencurian (Pid.B)**, PN Malang.
 
 Sistem ini mengikuti siklus CBR lengkap:
 1. **Membangun Case Base** – Scraping & preprocessing 40 dokumen PDF putusan
@@ -130,7 +130,7 @@ subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'seaborn'])
 | Atribut | Detail |
 |---|---|
 | Sumber | [Direktori Putusan Mahkamah Agung RI](https://putusan3.mahkamahagung.go.id) |
-| Domain Perkara | Pidana Biasa (Pid.B) – Pengadilan Negeri Malang |
+| Domain Perkara | Pidana Umum – Pencurian (Pid.B) – Pengadilan Negeri Malang |
 | Jumlah Dokumen | 40 putusan |
 | Tahun Putusan | 2025 |
 | Format Asli | PDF |
