@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1,CV_Acc
+Retrieval SVM,1.0,1.0,1.0,1.0,-
+Retrieval NB,0.75,0.375,0.5,0.42857142857142855,-
+Reuse Weighted,1.0,1.0,1.0,1.0,-
+Reuse Majority,1.0,1.0,1.0,1.0,-
+SVM Klasifikasi,0.625,0.3125,0.5,0.38461538461538464,0.6658
+NB  Klasifikasi,0.625,0.3125,0.5,0.38461538461538464,0.6408
